@@ -5,5 +5,8 @@
   "samoline/9c3101fe-8bc7-4dad-9c9a-edfaacfe28fe": {
     "max_steps": 50,
     "num_epochs": 1
+  },
+  "unsloth/Qwen2.5-Coder-7B": {
+    "micro_batch_size": 4
   }
 }
