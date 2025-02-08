@@ -1,4 +1,18 @@
 {
+  "EleutherAI/gpt-neo-1.3B": {
+    "special_tokens": {
+      "pad_token": "<|endoftext|>"
+  },
+  "EleutherAI/gpt-neo-125m": {
+    "special_tokens": {
+      "pad_token": "<|endoftext|>"
+  },
+  "tiiuae/falcon-rw-1b": {
+    "flash_attention": false
+  },
+  "NousResearch/CodeLlama-13b-hf-flash": {
+    "flash_attention": false
+  },
   "NousResearch/CodeLlama-7b-hf-flash": {
     "flash_attention": false
   },
