@@ -54,6 +54,7 @@
     "use_cache": false,
     "special_tokens": {
       "pad_token": "<|endoftext|>"
+    }
   },
   "NousResearch/CodeLlama-13b-hf": {
     "flash_attention": false
