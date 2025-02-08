@@ -15,20 +15,45 @@
     "flash_attention": false
   },
   "EleutherAI/gpt-neo-1.3B": {
-    "use_cache": false,
+    "early_stopping_patience": "null",
     "flash_attention": false,
+    "gradient_accumulation_steps": 4,
+    "gradient_checkpointing": true,
+    "gradient_clipping": 1.0,
     "group_by_length": false,
+    "learning_rate": 0.00005,
+    "load_in_4bit": true,
+    "load_in_8bit": true,
+    "lora_alpha": 32,
+    "lora_r": 16,
+    "micro_batch_size": 2,
+    "tf32": false,
+    "weight_decay": 0.01,
+    "xformers_attention": true,
+    "use_cache": false,
     "special_tokens": {
       "pad_token": "<|endoftext|>"
     }
   },
   "EleutherAI/gpt-neo-125m": {
-    "use_cache": false,
+    "early_stopping_patience": "null",
     "flash_attention": false,
+    "gradient_accumulation_steps": 4,
+    "gradient_checkpointing": true,
+    "gradient_clipping": 1.0,
     "group_by_length": false,
+    "learning_rate": 0.00005,
+    "load_in_4bit": true,
+    "load_in_8bit": true,
+    "lora_alpha": 32,
+    "lora_r": 16,
+    "micro_batch_size": 2,
+    "tf32": false,
+    "weight_decay": 0.01,
+    "xformers_attention": true,
+    "use_cache": false,
     "special_tokens": {
       "pad_token": "<|endoftext|>"
-    }
   },
   "NousResearch/CodeLlama-13b-hf": {
     "flash_attention": false
