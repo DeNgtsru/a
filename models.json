@@ -8,6 +8,7 @@
     "group_by_length": false,
     "special_tokens": {
       "pad_token": "<|endoftext|>"
+    }
   },
   "tiiuae/falcon-rw-1b": {
     "flash_attention": false
