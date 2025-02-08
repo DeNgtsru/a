@@ -72,7 +72,7 @@
     "gradient_checkpointing": true
   },
   "hf-tiny-model-private/tiny-random-OPTForCausalLM": {
-    "chat_template": none,
+    "chat_template": "none",
     "pad_to_sequence_len": false
   }
 }
