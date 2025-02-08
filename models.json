@@ -53,6 +53,11 @@
     "num_epochs": 1
   },
   "dunzhang/stella_en_1.5B_v5": {
-    "flash_attention": false
+    "flash_attention": false,
+    "lora_alpha": 16,
+    "lora_r": 8,
+    "bf16": false,
+    "fp16": true,
+    "sequence_len": 256
   }
 }
