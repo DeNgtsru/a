@@ -65,7 +65,6 @@
     "model_type": "AutoModelForCausalLM",
     "optimizer": "adamw_torch",
     "fp32": true,
-    "chat_template": "tokenizer_default",
     "pad_to_sequence_len": false,
     "sequence_len": 100
   }
