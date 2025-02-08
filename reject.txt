@@ -1,2 +1,2 @@
-EleutherAI/gpt-neo-1.3B
-EleutherAI/gpt-neo-125m
+#EleutherAI/gpt-neo-1.3B
+#EleutherAI/gpt-neo-125m
