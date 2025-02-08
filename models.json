@@ -1,11 +1,15 @@
 {
   "EleutherAI/gpt-neo-1.3B": {
     "use_cache": false,
+    "flash_attention": false,
+    "group_by_length": false,
     "special_tokens": {
       "pad_token": "<|endoftext|>"
   },
   "EleutherAI/gpt-neo-125m": {
     "use_cache": false,
+    "flash_attention": false,
+    "group_by_length": false,
     "special_tokens": {
       "pad_token": "<|endoftext|>"
   },
