@@ -39,6 +39,9 @@
   "bigscience/bloomz-560m": {
     "flash_attention": false
   },
+  "NousResearch/Yarn-Llama-2-13b-64k": {
+    "flash_attention": false
+  },
   "NousResearch/Yarn-Llama-2-7b-64k": {
     "flash_attention": false
   },
