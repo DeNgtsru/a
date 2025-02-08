@@ -64,7 +64,6 @@
   "hf-tiny-model-private/tiny-random-OPTForCausalLM": {
     "model_type": "AutoModelForCausalLM",
     "optimizer": "adamw_torch",
-    "fp32": true,
     "pad_to_sequence_len": false,
     "sequence_len": 100
   }
