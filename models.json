@@ -3,6 +3,9 @@
     "gradient_checkpointing": true,
     "gradient_accumulation_steps": 2
   },
+  "tiiuae/falcon-7b": {
+    "flash_attention": false
+  },
   "tiiuae/falcon-mamba-7b": {
     "flash_attention": false,
     "gradient_checkpointing": true,
