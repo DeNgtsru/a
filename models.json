@@ -2,6 +2,9 @@
   "NousResearch/CodeLlama-7b-hf-flash": {
     "flash_attention": false
   },
+  "bigscience/bloom-560m": {
+    "flash_attention": false
+  },
   "katuni4ka/tiny-random-codegen2": {
     "flash_attention": false
   },
