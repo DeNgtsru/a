@@ -60,13 +60,19 @@
   },
   "dunzhang/stella_en_1.5B_v5": {
     "flash_attention": false,
-    "lora_alpha": 16,
+    "lora_alpha": 8,
     "lora_r": 8,
     "bf16": false,
     "fp16": true,
     "sequence_len": 256,
     "max_grad_norm": 0.3,
+    "lr_scheduler": "constant",
+    "warmup_steps": 0,
     "learning_rate": 0.00005,
     "gradient_checkpointing": true
+  },
+  "hf-tiny-model-private/tiny-random-OPTForCausalLM": {
+    "chat_template": none,
+    "pad_to_sequence_len": false
   }
 }
