@@ -11,6 +11,9 @@
     "gradient_checkpointing": true,
     "gradient_accumulation_steps": 2
   },
+  "tiiuae/falcon-rw-1b": {
+    "flash_attention": false
+  },
   "EleutherAI/gpt-neo-1.3B": {
     "use_cache": false,
     "flash_attention": false,
@@ -27,7 +30,7 @@
       "pad_token": "<|endoftext|>"
     }
   },
-  "tiiuae/falcon-rw-1b": {
+  "NousResearch/CodeLlama-13b-hf": {
     "flash_attention": false
   },
   "NousResearch/CodeLlama-13b-hf-flash": {
