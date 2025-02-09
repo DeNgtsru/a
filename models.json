@@ -89,5 +89,8 @@
   },
   "dunzhang/stella_en_1.5B_v5": {
     "flash_attention": false
+  },
+  "fxmarty/really-tiny-falcon-testing": {
+    "flash_attention": false
   }
 }
