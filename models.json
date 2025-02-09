@@ -62,6 +62,9 @@
   "NousResearch/CodeLlama-13b-hf-flash": {
     "flash_attention": false
   },
+  "NousResearch/CodeLlama-7b-hf": {
+    "flash_attention": false
+  },
   "NousResearch/CodeLlama-7b-hf-flash": {
     "flash_attention": false
   },
