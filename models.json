@@ -93,7 +93,7 @@
   "NousResearch/Yarn-Llama-2-13b-128k": {
     "flash_attention": false
   },
-  "NousResearch/Yarn-Llama-2-7b-128k" {
+  "NousResearch/Yarn-Llama-2-7b-128k": {
     "flash_attention": false
   },
   "fxmarty/really-tiny-falcon-testing": {
