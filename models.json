@@ -36,7 +36,6 @@
     }
   },
   "EleutherAI/gpt-neo-125m": {
-    "early_stopping_patience": "null",
     "flash_attention": false,
     "gradient_accumulation_steps": 4,
     "gradient_checkpointing": true,
