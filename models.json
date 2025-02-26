@@ -73,7 +73,8 @@
     "flash_attention": false
   },
   "NousResearch/Yarn-Llama-2-13b-64k": {
-    "flash_attention": false
+    "flash_attention": false,
+    "max_steps": 250
   },
   "NousResearch/Yarn-Llama-2-7b-64k": {
     "flash_attention": false
