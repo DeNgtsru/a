@@ -1,4 +1,7 @@
 {
+  "unsloth/Meta-Llama-3.1-8B": {
+    "bf16": auto
+  },
   "unsloth/Mistral-Nemo-Instruct-2407": {
     "gradient_checkpointing": true,
     "gradient_accumulation_steps": 2
