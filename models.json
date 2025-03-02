@@ -1,4 +1,9 @@
 {
+  "Artples/L-MChat-7b": {
+    "eval_steps": 100,
+    "max_steps": 1000,
+    "save_steps": 100
+  },
   "NousResearch/Genstruct-7B": {
     "eval_steps": 100,
     "max_steps": 1000,
