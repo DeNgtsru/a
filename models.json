@@ -11,7 +11,7 @@
   },
   "unsloth/Llama-3.1-Storm-8B": {
     "eval_steps": 100,
-    "max_steps": 500,
+    "max_steps": 800,
     "save_steps": 100
   },
   "heegyu/WizardVicuna2-13b-hf": {
