@@ -1,7 +1,12 @@
 {
+  "NousResearch/Genstruct-7B": {
+    "eval_steps": 100,
+    "max_steps": 1000,
+    "save_steps": 100
+  },
   "unsloth/Phi-3-medium-4k-instruct": {
     "eval_steps": 100,
-    "max_steps": 500,
+    "max_steps": 1000,
     "save_steps": 100
   },
   "unsloth/Llama-3.1-Storm-8B": {
