@@ -4,6 +4,11 @@
     "max_steps": 500,
     "save_steps": 100
   },
+  "tokyotech-llm/Llama-3-Swallow-8B-v0.1": {
+    "eval_steps": 100,
+    "max_steps": 1000,
+    "save_steps": 100
+  },
   "unsloth/Mistral-Nemo-Instruct-2407": {
     "gradient_checkpointing": true,
     "gradient_accumulation_steps": 2
