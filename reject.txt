@@ -2,3 +2,4 @@ hf-tiny-model-private/tiny-random-OPTForCausalLM
 katuni4ka/tiny-random-codegen2
 tiiuae/falcon-mamba-7b
 NousResearch/Yarn-Llama-2-7b-64k
+unsloth/gemma-2-9b
