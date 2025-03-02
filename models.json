@@ -16,7 +16,7 @@
   },
   "heegyu/WizardVicuna2-13b-hf": {
     "eval_steps": 100,
-    "max_steps": 500,
+    "max_steps": 700,
     "save_steps": 100
   },
   "tokyotech-llm/Llama-3-Swallow-8B-v0.1": {
