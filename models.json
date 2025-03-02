@@ -1,4 +1,9 @@
 {
+  "heegyu/WizardVicuna2-13b-hf": {
+    eval_steps: 50,
+    max_steps: 500,
+    save_steps: 100
+  },
   "unsloth/Mistral-Nemo-Instruct-2407": {
     "gradient_checkpointing": true,
     "gradient_accumulation_steps": 2
