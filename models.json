@@ -64,6 +64,9 @@
   "unsloth/SmolLM-135M": {
     "max_steps": 7000
   },
+  "unsloth/Qwen2.5-Math-1.5B": {
+    "max_steps": 2000
+  },
   "unsloth/Mistral-Nemo-Instruct-2407": {
     "gradient_checkpointing": true,
     "gradient_accumulation_steps": 2
