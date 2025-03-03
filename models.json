@@ -70,6 +70,9 @@
   "numind/NuExtract-v1.5": {
     "max_steps": 2000
   },
+  "echarlaix/tiny-random-PhiForCausalLM": {
+    "max_steps": 50000
+  },
   "unsloth/Mistral-Nemo-Instruct-2407": {
     "gradient_checkpointing": true,
     "gradient_accumulation_steps": 2
