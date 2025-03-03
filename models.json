@@ -37,9 +37,6 @@
   "fxmarty/tiny-random-GemmaForCausalLM": {
     "max_steps": 2500
   },
-  "defog/llama-3-sqlcoder-8b": {
-    "max_steps": 2000
-  },
   "Intel/neural-chat-7b-v3-3": {
     "eval_steps": 100,
     "max_steps": 700,
