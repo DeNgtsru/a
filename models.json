@@ -76,6 +76,10 @@
   "unsloth/Mistral-Nemo-Base-2407": {
     "max_steps": 2500
   },
+  "fxmarty/really-tiny-falcon-testing": {
+    "flash_attention": false,
+    "max_steps": 25000
+  },
   "unsloth/Mistral-Nemo-Instruct-2407": {
     "gradient_checkpointing": true,
     "gradient_accumulation_steps": 2
@@ -171,9 +175,6 @@
     "flash_attention": false
   },
   "NousResearch/Yarn-Llama-2-7b-128k": {
-    "flash_attention": false
-  },
-  "fxmarty/really-tiny-falcon-testing": {
     "flash_attention": false
   }
 }
