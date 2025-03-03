@@ -1,3 +1,4 @@
 hf-tiny-model-private/tiny-random-OPTForCausalLM
 katuni4ka/tiny-random-codegen2
 tiiuae/falcon-mamba-7b
+NousResearch/Genstruct-7B
