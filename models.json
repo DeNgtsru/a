@@ -22,6 +22,9 @@
   "Xenova/tiny-random-Phi3ForCausalLM": {
     "max_steps": 25000
   },
+  "NousResearch/Genstruct-7B": {
+    "max_steps": 1500
+  },
   "unsloth/Mistral-Nemo-Instruct-2407": {
     "gradient_checkpointing": true,
     "gradient_accumulation_steps": 2
