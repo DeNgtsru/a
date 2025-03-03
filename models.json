@@ -28,9 +28,6 @@
   "unsloth/Qwen2.5-0.5B": {
     "max_steps": 5000
   },
-  "princeton-nlp/Sheared-LLaMA-1.3B": {
-    "max_steps": 7000
-  },
   "katuni4ka/tiny-random-qwen1.5-moe": {
     "max_steps": 9000
   },
