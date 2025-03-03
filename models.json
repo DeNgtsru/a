@@ -76,6 +76,9 @@
   "unsloth/Mistral-Nemo-Base-2407": {
     "max_steps": 2500
   },
+  "NousResearch/Yarn-Solar-10b-64k": {
+    "max_steps": 800
+  },
   "fxmarty/really-tiny-falcon-testing": {
     "flash_attention": false,
     "max_steps": 25000
