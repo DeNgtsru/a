@@ -58,6 +58,12 @@
   "unsloth/SmolLM2-135M": {
     "max_steps": 5000
   },
+  "TitanML/tiny-mixtral": {
+    "max_steps": 8000
+  },
+  "unsloth/SmolLM-135M": {
+    "max_steps": 7000
+  },
   "unsloth/Mistral-Nemo-Instruct-2407": {
     "gradient_checkpointing": true,
     "gradient_accumulation_steps": 2
