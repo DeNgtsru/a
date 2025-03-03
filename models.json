@@ -46,7 +46,9 @@
   "Intel/neural-chat-7b-v3-3": {
     "max_steps": 700
   },
-
+  "heegyu/WizardVicuna2-13b-hf": {
+    "max_steps": 700
+  },
   "unsloth/Mistral-Nemo-Instruct-2407": {
     "gradient_checkpointing": true,
     "gradient_accumulation_steps": 2
