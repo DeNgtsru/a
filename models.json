@@ -49,6 +49,12 @@
   "heegyu/WizardVicuna2-13b-hf": {
     "max_steps": 700
   },
+  "MLP-KTLim/llama-3-Korean-Bllossom-8B": {
+    "max_steps": 1000
+  },
+  "tokyotech-llm/Llama-3-Swallow-8B-v0.1": {
+    "max_steps": 1500
+  },
   "unsloth/Mistral-Nemo-Instruct-2407": {
     "gradient_checkpointing": true,
     "gradient_accumulation_steps": 2
