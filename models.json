@@ -5,10 +5,13 @@
     "save_steps": 100
   },
   "Qwen/Qwen2-1.5B-Instruct": {
-    "max_steps": 3000,
+    "max_steps": 3000
   },
   "princeton-nlp/Sheared-LLaMA-1.3B": {
-    "max_steps": 3000,
+    "max_steps": 3000
+  },
+  "defog/llama-3-sqlcoder-8b": {
+    "max_steps": 1500
   },
   "unsloth/Mistral-Nemo-Instruct-2407": {
     "gradient_checkpointing": true,
