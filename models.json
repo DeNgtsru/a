@@ -32,7 +32,7 @@
     "max_steps": 9000
   },
   "Qwen/Qwen2.5-7B-Instruct": {
-    "max_steps": 3000
+    "max_steps": 2000
   },
   "fxmarty/tiny-random-GemmaForCausalLM": {
     "max_steps": 2500
