@@ -42,11 +42,6 @@
     "max_steps": 700,
     "save_steps": 100
   },
-  "heegyu/WizardVicuna2-13b-hf": {
-    "eval_steps": 100,
-    "max_steps": 700,
-    "save_steps": 100
-  },
   "MLP-KTLim/llama-3-Korean-Bllossom-8B": {
     "max_steps": 1000
   },
