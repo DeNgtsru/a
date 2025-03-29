@@ -11,3 +11,4 @@ Qwen/Qwen2.5-1.5B-Instruct
 TinyLlama/TinyLlama-1.1B-Chat-v1.0
 Qwen/Qwen2.5-14B-Instruct
 unsloth/Mistral-Nemo-Instruct-2407
+stabilityai/stable-diffusion-xl-base-1.0
