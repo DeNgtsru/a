@@ -4,6 +4,14 @@
     "max_steps": 1000,
     "save_steps": 100
   },
+  "samoline/a3ddb038-48fb-4765-a989-29968dcb2071": {
+    "eval_steps": 250,
+    "learning_rate": 0.0002,
+    "lora_alpha": 32,
+    "lora_dropout": 0.1,
+    "lora_r": 16,
+    "num_epochs": 1
+  },
   "Qwen/Qwen2-1.5B-Instruct": {
     "max_steps": 3000
   },
