@@ -206,6 +206,7 @@
         "save_steps": 811
     },
     "lmsys/vicuna-13b-v1.5": {
+        "max_length": 4096,
         "eval_steps": 226,
         "max_steps": 452,
         "save_steps": 226
