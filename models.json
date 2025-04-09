@@ -1,221 +1,638 @@
 {
-  "my-example": {
-    "eval_steps": 100,
-    "max_steps": 1000,
-    "save_steps": 100
-  },
-  "Korabbit/llama-2-ko-7b": {
-    "eval_steps": 250,
-    "learning_rate": 0.0002,
-    "lora_alpha": 32,
-    "lora_dropout": 0.1,
-    "lora_r": 16,
-    "num_epochs": 1
-  },
-  "upstage/SOLAR-10.7B-Instruct-v1.0": {
-    "eval_steps": 250,
-    "learning_rate": 0.0002,
-    "lora_alpha": 32,
-    "lora_dropout": 0.1,
-    "lora_r": 16,
-    "num_epochs": 1
-  },
-  "princeton-nlp/gemma-2-9b-it-SimPO": {
-    "eval_steps": 250,
-    "learning_rate": 0.0002,
-    "lora_alpha": 32,
-    "lora_dropout": 0.1,
-    "lora_r": 16,
-    "num_epochs": 1
-  },
-  "samoline/a3ddb038-48fb-4765-a989-29968dcb2071": {
-    "eval_steps": 250,
-    "learning_rate": 0.0002,
-    "lora_alpha": 32,
-    "lora_dropout": 0.1,
-    "lora_r": 16,
-    "num_epochs": 1
-  },
-  "HuggingFaceH4/zephyr-7b-beta": {
-    "eval_steps": 250,
-    "learning_rate": 0.0002,
-    "lora_alpha": 32,
-    "lora_dropout": 0.1,
-    "lora_r": 16,
-    "num_epochs": 1
-  },
-  "Qwen/Qwen2-1.5B-Instruct": {
-    "max_steps": 3000
-  },
-  "princeton-nlp/Sheared-LLaMA-1.3B": {
-    "max_steps": 3000
-  },
-  "defog/llama-3-sqlcoder-8b": {
-    "max_steps": 1500
-  },
-  "unsloth/SmolLM-1.7B": {
-    "max_steps": 2000
-  },
-  "unsloth/Qwen2.5-1.5B": {
-    "max_steps": 4000
-  },
-  "Xenova/tiny-random-Phi3ForCausalLM": {
-    "max_steps": 25000
-  },
-  "NousResearch/Genstruct-7B": {
-    "max_steps": 1500
-  },
-  "unsloth/Qwen2.5-0.5B": {
-    "max_steps": 5000
-  },
-  "katuni4ka/tiny-random-qwen1.5-moe": {
-    "max_steps": 9000
-  },
-  "Qwen/Qwen2.5-7B-Instruct": {
-    "max_steps": 2000
-  },
-  "fxmarty/tiny-random-GemmaForCausalLM": {
-    "max_steps": 2500
-  },
-  "Intel/neural-chat-7b-v3-3": {
-    "eval_steps": 100,
-    "max_steps": 700,
-    "save_steps": 100
-  },
-  "MLP-KTLim/llama-3-Korean-Bllossom-8B": {
-    "max_steps": 1000
-  },
-  "tokyotech-llm/Llama-3-Swallow-8B-v0.1": {
-    "max_steps": 1500
-  },
-  "unsloth/SmolLM2-135M": {
-    "max_steps": 5000
-  },
-  "TitanML/tiny-mixtral": {
-    "max_steps": 8000
-  },
-  "unsloth/SmolLM-135M": {
-    "max_steps": 7000
-  },
-  "unsloth/Qwen2.5-Math-1.5B": {
-    "max_steps": 2000
-  },
-  "numind/NuExtract-v1.5": {
-    "max_steps": 2000
-  },
-  "echarlaix/tiny-random-PhiForCausalLM": {
-    "max_steps": 50000
-  },
-  "unsloth/Mistral-Nemo-Base-2407": {
-    "max_steps": 2500
-  },
-  "NousResearch/Yarn-Solar-10b-64k": {
-    "eval_steps": 100,
-    "max_steps": 800,
-    "save_steps": 100
-  },
-  "fxmarty/really-tiny-falcon-testing": {
-    "flash_attention": false,
-    "max_steps": 25000
-  },
-  "unsloth/Phi-3-medium-4k-instruct": {
-    "max_steps": 1500
-  },
-  "unsloth/Mistral-Nemo-Instruct-2407": {
-    "gradient_checkpointing": true,
-    "gradient_accumulation_steps": 2
-  },
-  "tiiuae/falcon-7b": {
-    "flash_attention": false
-  },
-  "tiiuae/falcon-mamba-7b": {
-    "flash_attention": false,
-    "gradient_checkpointing": true,
-    "gradient_accumulation_steps": 2
-  },
-  "tiiuae/falcon-rw-1b": {
-    "flash_attention": false
-  },
-  "EleutherAI/gpt-neo-1.3B": {
-    "flash_attention": false,
-    "gradient_accumulation_steps": 4,
-    "gradient_checkpointing": true,
-    "gradient_clipping": 1.0,
-    "group_by_length": false,
-    "learning_rate": 0.00005,
-    "load_in_4bit": true,
-    "load_in_8bit": true,
-    "lora_alpha": 32,
-    "lora_r": 16,
-    "micro_batch_size": 2,
-    "tf32": false,
-    "weight_decay": 0.01,
-    "xformers_attention": true,
-    "use_cache": false,
-    "special_tokens": {
-      "pad_token": "<|endoftext|>"
+    "katuni4ka/tiny-random-codegen2": {
+        "flash_attention": false,
+        "sequence_len": 1024
+    },
+    "samoline/9c3101fe-8bc7-4dad-9c9a-edfaacfe28fe": {
+        "flash_attention": false
+    },
+    "NousResearch/CodeLlama-13b-hf-flash": {
+        "flash_attention": false
+    },
+    "NousResearch/CodeLlama-7b-hf-flash": {
+        "flash_attention": false
+    },
+    "NousResearch/Yarn-Llama-2-7b-64k": {
+        "flash_attention": false
+    },
+    "NousResearch/Yarn-Llama-2-13b-128k": {
+        "flash_attention": false
+    },
+    "NousResearch/Yarn-Llama-2-7b-128k": {
+        "flash_attention": false
+    },
+    "tiiuae/falcon-mamba-7b": {
+        "flash_attention": false
+    },
+    "01-ai/Yi-1.5-9B-Chat-16K": {
+        "eval_steps": 466,
+        "max_steps": 932,
+        "save_steps": 466
+    },
+    "aisingapore/llama3-8b-cpt-sea-lionv2.1-instruct": {
+        "eval_steps": 413,
+        "max_steps": 826,
+        "save_steps": 413
+    },
+    "berkeley-nest/Starling-LM-7B-alpha": {
+        "eval_steps": 780,
+        "max_steps": 1560,
+        "save_steps": 780
+    },
+    "bigscience/bloom-560m": {
+        "flash_attention": false,
+        "eval_steps": 1151,
+        "max_steps": 2302,
+        "save_steps": 1151
+    },
+    "bigscience/bloomz-560m": {
+        "flash_attention": false,
+        "eval_steps": 1296,
+        "max_steps": 2592,
+        "save_steps": 1296
+    },
+    "Casual-Autopsy/L3-Umbral-Mind-RP-v3.0-8B": {
+        "eval_steps": 484,
+        "max_steps": 968,
+        "save_steps": 484
+    },
+    "dltjdgh0928/test_instruction": {
+        "eval_steps": 9760,
+        "max_steps": 19520,
+        "save_steps": 9760
+    },
+    "defog/llama-3-sqlcoder-8b": {
+        "eval_steps": 858,
+        "max_steps": 1716,
+        "save_steps": 858
+    },
+    "dunzhang/stella_en_1.5B_v5": {
+        "flash_attention": false,
+        "eval_steps": 1718,
+        "max_steps": 3436,
+        "save_steps": 1718
+    },
+    "echarlaix/tiny-random-mistral": {
+        "eval_steps": 2874,
+        "max_steps": 5748,
+        "save_steps": 2874
+    },
+    "echarlaix/tiny-random-PhiForCausalLM": {
+        "eval_steps": 95147,
+        "max_steps": 190294,
+        "save_steps": 95147
+    },
+    "elyza/Llama-3-ELYZA-JP-8B": {
+        "eval_steps": 612,
+        "max_steps": 1224,
+        "save_steps": 612
+    },
+    "facebook/opt-350m": {
+        "eval_steps": 3730,
+        "max_steps": 7460,
+        "save_steps": 3730
+    },
+    "fxmarty/really-tiny-falcon-testing": {
+        "flash_attention": false,
+        "eval_steps": 48357,
+        "max_steps": 96714,
+        "save_steps": 48357
+    },
+    "fxmarty/tiny-llama-fast-tokenizer": {
+        "eval_steps": 23158,
+        "max_steps": 46316,
+        "save_steps": 23158
+    },
+    "HuggingFaceH4/tiny-random-LlamaForCausalLM": {
+        "eval_steps": 12658,
+        "max_steps": 25316,
+        "save_steps": 12658
+    },
+    "HuggingFaceH4/zephyr-7b-beta": {
+        "eval_steps": 516,
+        "max_steps": 1032,
+        "save_steps": 516
+    },
+    "EleutherAI/gpt-neo-125m": {
+        "flash_attention": false,
+        "eval_steps": 3588,
+        "max_steps": 7176,
+        "save_steps": 3588
+    },
+    "EleutherAI/gpt-neo-1.3B": {
+        "flash_attention": false,
+        "eval_steps": 589,
+        "max_steps": 1178,
+        "save_steps": 589
+    },
+    "EleutherAI/pythia-1b": {
+        "eval_steps": 2872,
+        "max_steps": 5744,
+        "save_steps": 2872
+    },
+    "EleutherAI/pythia-14m": {
+        "eval_steps": 10244,
+        "max_steps": 20488,
+        "save_steps": 10244
+    },
+    "EleutherAI/pythia-410m-deduped": {
+        "eval_steps": 3223,
+        "max_steps": 6446,
+        "save_steps": 3223
+    },
+    "EleutherAI/pythia-70m-deduped": {
+        "eval_steps": 13810,
+        "max_steps": 27620,
+        "save_steps": 13810
+    },
+    "heegyu/WizardVicuna2-13b-hf": {
+        "eval_steps": 270,
+        "max_steps": 540,
+        "save_steps": 270
+    },
+    "heegyu/WizardVicuna-open-llama-3b-v2": {
+        "eval_steps": 984,
+        "max_steps": 1968,
+        "save_steps": 984
+    },
+    "Intel/neural-chat-7b-v3-3": {
+        "eval_steps": 484,
+        "max_steps": 968,
+        "save_steps": 484
+    },
+    "JackFram/llama-68m": {
+        "eval_steps": 19650,
+        "max_steps": 39300,
+        "save_steps": 19650
+    },
+    "jhflow/mistral7b-lora-multi-turn-v2": {
+        "eval_steps": 447,
+        "max_steps": 894,
+        "save_steps": 447
+    },
+    "jingyeom/seal3.1.6n_7b": {
+        "eval_steps": 943,
+        "max_steps": 1886,
+        "save_steps": 943
+    },
+    "katuni4ka/tiny-random-dbrx": {
+        "eval_steps": 10372,
+        "max_steps": 20744,
+        "save_steps": 10372
+    },
+    "katuni4ka/tiny-random-falcon-40b": {
+        "eval_steps": 9130,
+        "max_steps": 18260,
+        "save_steps": 9130
+    },
+    "katuni4ka/tiny-random-olmo-hf": {
+        "eval_steps": 17700,
+        "max_steps": 35400,
+        "save_steps": 17700
+    },
+    "katuni4ka/tiny-random-qwen1.5-moe": {
+        "eval_steps": 3964,
+        "max_steps": 7928,
+        "save_steps": 3964
+    },
+    "llamafactory/tiny-random-Llama-3": {
+        "eval_steps": 9386,
+        "max_steps": 18772,
+        "save_steps": 9386
+    },
+    "lcw99/zephykor-ko-7b-chang": {
+        "eval_steps": 811,
+        "max_steps": 1622,
+        "save_steps": 811
+    },
+    "lmsys/vicuna-13b-v1.5": {
+        "eval_steps": 226,
+        "max_steps": 452,
+        "save_steps": 226
+    },
+    "lmsys/vicuna-7b-v1.3": {
+        "eval_steps": 314,
+        "max_steps": 628,
+        "save_steps": 314
+    },
+    "migtissera/Tess-v2.5-Phi-3-medium-128k-14B": {
+        "eval_steps": 246,
+        "max_steps": 492,
+        "save_steps": 246
+    },
+    "microsoft/Phi-3-mini-4k-instruct": {
+        "eval_steps": 1376,
+        "max_steps": 2752,
+        "save_steps": 1376
+    },
+    "microsoft/Phi-3.5-mini-instruct": {
+        "eval_steps": 438,
+        "max_steps": 876,
+        "save_steps": 438
+    },
+    "microsoft/phi-1_5": {
+        "eval_steps": 1372,
+        "max_steps": 2744,
+        "save_steps": 1372
+    },
+    "MLP-KTLim/llama-3-Korean-Bllossom-8B": {
+        "eval_steps": 326,
+        "max_steps": 652,
+        "save_steps": 326
+    },
+    "numind/NuExtract-v1.5": {
+        "eval_steps": 690,
+        "max_steps": 1380,
+        "save_steps": 690
+    },
+    "openlm-research/open_llama_3b": {
+        "eval_steps": 1050,
+        "max_steps": 2100,
+        "save_steps": 1050
+    },
+    "OpenAssistant/oasst-sft-4-pythia-12b-epoch-3.5": {
+        "eval_steps": 528,
+        "max_steps": 1056,
+        "save_steps": 528
+    },
+    "oopsung/llama2-7b-koNqa-test-v1": {
+        "eval_steps": 633,
+        "max_steps": 1266,
+        "save_steps": 633
+    },
+    "peft-internal-testing/tiny-dummy-qwen2": {
+        "eval_steps": 10734,
+        "max_steps": 21468,
+        "save_steps": 10734
+    },
+    "princeton-nlp/Sheared-LLaMA-1.3B": {
+        "eval_steps": 3037,
+        "max_steps": 6074,
+        "save_steps": 3037
+    },
+    "princeton-nlp/gemma-2-9b-it-SimPO": {
+        "eval_steps": 190,
+        "max_steps": 380,
+        "save_steps": 190
+    },
+    "Qwen/Qwen1.5-1.8B": {
+        "eval_steps": 4416,
+        "max_steps": 8832,
+        "save_steps": 4416
+    },
+    "Qwen/Qwen1.5-14B-Chat": {
+        "eval_steps": 512,
+        "max_steps": 1024,
+        "save_steps": 512
+    },
+    "Qwen/Qwen1.5-7B": {
+        "eval_steps": 642,
+        "max_steps": 1284,
+        "save_steps": 642
+    },
+    "Qwen/Qwen2-0.5B": {
+        "eval_steps": 2550,
+        "max_steps": 5100,
+        "save_steps": 2550
+    },
+    "Qwen/Qwen2-0.5B-Instruct": {
+        "eval_steps": 3292,
+        "max_steps": 6584,
+        "save_steps": 3292
+    },
+    "Qwen/Qwen2-1.5B-Instruct": {
+        "eval_steps": 2197,
+        "max_steps": 4394,
+        "save_steps": 2197
+    },
+    "Qwen/Qwen2.5-0.5B": {
+        "eval_steps": 1296,
+        "max_steps": 2592,
+        "save_steps": 1296
+    },
+    "Qwen/Qwen2.5-0.5B-Instruct": {
+        "eval_steps": 1198,
+        "max_steps": 2396,
+        "save_steps": 1198
+    },
+    "Qwen/Qwen2.5-1.5B": {
+        "eval_steps": 1108,
+        "max_steps": 2216,
+        "save_steps": 1108
+    },
+    "Qwen/Qwen2.5-1.5B-Instruct": {
+        "eval_steps": 1668,
+        "max_steps": 3336,
+        "save_steps": 1668
+    },
+    "Qwen/Qwen2.5-3B": {
+        "eval_steps": 567,
+        "max_steps": 1134,
+        "save_steps": 567
+    },
+    "Qwen/Qwen2.5-Coder-7B": {
+        "eval_steps": 806,
+        "max_steps": 1612,
+        "save_steps": 806
+    },
+    "Qwen/Qwen2.5-Coder-7B-Instruct": {
+        "eval_steps": 733,
+        "max_steps": 1466,
+        "save_steps": 733
+    },
+    "Qwen/Qwen2.5-14B": {
+        "eval_steps": 178,
+        "max_steps": 356,
+        "save_steps": 178
+    },
+    "Qwen/Qwen2.5-14B-Instruct": {
+        "eval_steps": 698,
+        "max_steps": 1396,
+        "save_steps": 698
+    },
+    "samoline/5255b81c-a162-4f3a-9a96-f4d344cb99c8": {
+        "eval_steps": 748,
+        "max_steps": 1496,
+        "save_steps": 748
+    },
+    "samoline/6352594b-010c-4cc7-9ea2-36fe456de2a6": {
+        "eval_steps": 1186,
+        "max_steps": 2372,
+        "save_steps": 1186
+    },
+    "sethuiyer/Medichat-Llama3-8B": {
+        "eval_steps": 320,
+        "max_steps": 640,
+        "save_steps": 320
+    },
+    "tlphams/gollm-12.8b-instruct-v2.3": {
+        "eval_steps": 154,
+        "max_steps": 308,
+        "save_steps": 154
+    },
+    "tiiuae/falcon-7b": {
+        "flash_attention": false,
+        "eval_steps": 873,
+        "max_steps": 1746,
+        "save_steps": 873
+    },
+    "tiiuae/falcon-rw-1b": {
+        "flash_attention": false,
+        "eval_steps": 3494,
+        "max_steps": 6988,
+        "save_steps": 3494
+    },
+    "tokyotech-llm/Llama-3-Swallow-8B-v0.1": {
+        "eval_steps": 438,
+        "max_steps": 876,
+        "save_steps": 438
+    },
+    "trl-internal-testing/tiny-random-LlamaForCausalLM": {
+        "eval_steps": 28146,
+        "max_steps": 56292,
+        "save_steps": 28146
+    },
+    "upstage/SOLAR-10.7B-Instruct-v1.0": {
+        "eval_steps": 289,
+        "max_steps": 578,
+        "save_steps": 289
+    },
+    "UCLA-AGI/Gemma-2-9B-It-SPPO-Iter2": {
+        "eval_steps": 312,
+        "max_steps": 624,
+        "save_steps": 312
+    },
+    "Vikhrmodels/Vikhr-7B-instruct_0.4": {
+        "eval_steps": 646,
+        "max_steps": 1292,
+        "save_steps": 646
+    },
+    "WhiteRabbitNeo/Llama-3-WhiteRabbitNeo-8B-v2.0": {
+        "eval_steps": 1558,
+        "max_steps": 3116,
+        "save_steps": 1558
+    },
+    "NousResearch/Meta-Llama-3-8B": {
+        "eval_steps": 1442,
+        "max_steps": 2884,
+        "save_steps": 1442
+    },
+    "NousResearch/Nous-Capybara-7B-V1": {
+        "eval_steps": 330,
+        "max_steps": 660,
+        "save_steps": 330
+    },
+    "NousResearch/Yarn-Mistral-7b-128k": {
+        "eval_steps": 302,
+        "max_steps": 604,
+        "save_steps": 302
+    },
+    "NousResearch/Yarn-Solar-10b-32k": {
+        "eval_steps": 704,
+        "max_steps": 1408,
+        "save_steps": 704
+    },
+    "NousResearch/Yarn-Llama-2-13b-64k": {
+        "flash_attention": false,
+        "eval_steps": 1520,
+        "max_steps": 3040,
+        "save_steps": 1520
+    },
+    "NousResearch/Hermes-3-Llama-3.1-8B": {
+        "eval_steps": 549,
+        "max_steps": 1098,
+        "save_steps": 549
+    },
+    "NousResearch/CodeLlama-7b-hf": {
+        "flash_attention": false,
+        "eval_steps": 283,
+        "max_steps": 566,
+        "save_steps": 283
+    },
+    "NousResearch/CodeLlama-13b-hf": {
+        "flash_attention": false,
+        "eval_steps": 318,
+        "max_steps": 636,
+        "save_steps": 318
+    },
+    "NousResearch/Genstruct-7B": {
+        "eval_steps": 771,
+        "max_steps": 1542,
+        "save_steps": 771
+    },
+    "NousResearch/Hermes-2-Theta-Llama-3-8B": {
+        "eval_steps": 300,
+        "max_steps": 600,
+        "save_steps": 300
+    },
+    "unsloth/Mistral-Nemo-Base-2407": {
+        "eval_steps": 999,
+        "max_steps": 1998,
+        "save_steps": 999
+    },
+    "unsloth/Qwen2-1.5B": {
+        "eval_steps": 751,
+        "max_steps": 1502,
+        "save_steps": 751
+    },
+    "unsloth/Qwen2.5-1.5B-Instruct": {
+        "eval_steps": 2116,
+        "max_steps": 4232,
+        "save_steps": 2116
+    },
+    "unsloth/mistral-7b-instruct-v0.2": {
+        "eval_steps": 544,
+        "max_steps": 1088,
+        "save_steps": 544
+    },
+    "unsloth/Qwen2.5-0.5B-Instruct": {
+        "eval_steps": 9273,
+        "max_steps": 18546,
+        "save_steps": 9273
+    },
+    "unsloth/SmolLM-1.7B": {
+        "eval_steps": 1045,
+        "max_steps": 2090,
+        "save_steps": 1045
+    },
+    "unsloth/SmolLM-360M": {
+        "eval_steps": 1739,
+        "max_steps": 3478,
+        "save_steps": 1739
+    },
+    "unsloth/SmolLM-135M": {
+        "eval_steps": 3847,
+        "max_steps": 7694,
+        "save_steps": 3847
+    },
+    "unsloth/Qwen2-0.5B-Instruct": {
+        "eval_steps": 3292,
+        "max_steps": 6584,
+        "save_steps": 3292
+    },
+    "unsloth/Qwen2.5-0.5B": {
+        "eval_steps": 8524,
+        "max_steps": 17048,
+        "save_steps": 8524
+    },
+    "unsloth/gemma-7b-it": {
+        "eval_steps": 1248,
+        "max_steps": 2496,
+        "save_steps": 1248
+    },
+    "unsloth/Qwen2.5-1.5B": {
+        "eval_steps": 3280,
+        "max_steps": 6560,
+        "save_steps": 3280
+    },
+    "unsloth/tinyllama": {
+        "eval_steps": 6556,
+        "max_steps": 13112,
+        "save_steps": 6556
+    },
+    "unsloth/gemma-2-9b-it": {
+        "eval_steps": 514,
+        "max_steps": 1028,
+        "save_steps": 514
+    },
+    "unsloth/gemma-2-2b-it": {
+        "eval_steps": 990,
+        "max_steps": 1980,
+        "save_steps": 990
+    },
+    "unsloth/llama-2-7b-chat": {
+        "eval_steps": 452,
+        "max_steps": 904,
+        "save_steps": 452
+    },
+    "unsloth/mistral-7b": {
+        "eval_steps": 738,
+        "max_steps": 1476,
+        "save_steps": 738
+    },
+    "unsloth/gemma-1.1-2b-it": {
+        "eval_steps": 1221,
+        "max_steps": 2442,
+        "save_steps": 1221
+    },
+    "unsloth/Qwen2.5-3B": {
+        "eval_steps": 910,
+        "max_steps": 1820,
+        "save_steps": 910
+    },
+    "unsloth/SmolLM-1.7B-Instruct": {
+        "eval_steps": 1709,
+        "max_steps": 3418,
+        "save_steps": 1709
+    },
+    "unsloth/Qwen2.5-Math-1.5B": {
+        "eval_steps": 1931,
+        "max_steps": 3862,
+        "save_steps": 1931
+    },
+    "unsloth/gemma-2-9b": {
+        "eval_steps": 514,
+        "max_steps": 1028,
+        "save_steps": 514
+    },
+    "unsloth/Qwen2-7B-Instruct": {
+        "eval_steps": 974,
+        "max_steps": 1948,
+        "save_steps": 974
+    },
+    "unsloth/codegemma-7b-it": {
+        "eval_steps": 298,
+        "max_steps": 596,
+        "save_steps": 298
+    },
+    "unsloth/SmolLM2-1.7B": {
+        "eval_steps": 2794,
+        "max_steps": 5588,
+        "save_steps": 2794
+    },
+    "unsloth/Hermes-3-Llama-3.1-8B": {
+        "eval_steps": 302,
+        "max_steps": 604,
+        "save_steps": 302
+    },
+    "unsloth/SmolLM-135M-Instruct": {
+        "eval_steps": 2556,
+        "max_steps": 5112,
+        "save_steps": 2556
+    },
+    "unsloth/Qwen2.5-Math-1.5B-Instruct": {
+        "eval_steps": 1931,
+        "max_steps": 3862,
+        "save_steps": 1931
+    },
+    "unsloth/Qwen2.5-Math-7B-Instruct": {
+        "eval_steps": 782,
+        "max_steps": 1564,
+        "save_steps": 782
+    },
+    "unsloth/Qwen2-1.5B-Instruct": {
+        "eval_steps": 1036,
+        "max_steps": 2072,
+        "save_steps": 1036
+    },
+    "unsloth/llama-3-8b-Instruct": {
+        "eval_steps": 430,
+        "max_steps": 860,
+        "save_steps": 430
+    },
+    "unsloth/tinyllama-chat": {
+        "eval_steps": 2750,
+        "max_steps": 5500,
+        "save_steps": 2750
+    },
+    "samoline/abb39ae4-1908-4ca1-b790-f2eb5d6c8bab": {
+        "eval_steps": 1222,
+        "max_steps": 2444,
+        "save_steps": 1222
+    },
+    "unsloth/SmolLM2-135M": {
+        "eval_steps": 2174,
+        "max_steps": 4348,
+        "save_steps": 2174
     }
-  },
-  "EleutherAI/gpt-neo-125m": {
-    "flash_attention": false,
-    "gradient_accumulation_steps": 4,
-    "gradient_checkpointing": true,
-    "gradient_clipping": 1.0,
-    "group_by_length": false,
-    "learning_rate": 0.00005,
-    "load_in_4bit": true,
-    "load_in_8bit": true,
-    "lora_alpha": 32,
-    "lora_r": 16,
-    "micro_batch_size": 2,
-    "tf32": false,
-    "weight_decay": 0.01,
-    "xformers_attention": true,
-    "use_cache": false,
-    "special_tokens": {
-      "pad_token": "<|endoftext|>"
-    }
-  },
-  "NousResearch/CodeLlama-13b-hf": {
-    "flash_attention": false
-  },
-  "NousResearch/CodeLlama-13b-hf-flash": {
-    "flash_attention": false
-  },
-  "NousResearch/CodeLlama-7b-hf": {
-    "flash_attention": false
-  },
-  "NousResearch/CodeLlama-7b-hf-flash": {
-    "flash_attention": false
-  },
-  "bigscience/bloom-560m": {
-    "flash_attention": false
-  },
-  "bigscience/bloomz-560m": {
-    "flash_attention": false
-  },
-  "NousResearch/Yarn-Llama-2-13b-64k": {
-    "flash_attention": false,
-    "max_steps": 250
-  },
-  "NousResearch/Yarn-Llama-2-7b-64k": {
-    "flash_attention": false
-  },
-  "katuni4ka/tiny-random-codegen2": {
-    "flash_attention": false,
-    "sequence_len": 1024
-  },
-  "samoline/9c3101fe-8bc7-4dad-9c9a-edfaacfe28fe": {
-    "max_steps": 50,
-    "num_epochs": 1
-  },
-  "dunzhang/stella_en_1.5B_v5": {
-    "flash_attention": false
-  },
-  "NousResearch/Yarn-Llama-2-13b-128k": {
-    "flash_attention": false
-  },
-  "NousResearch/Yarn-Llama-2-7b-128k": {
-    "flash_attention": false
-  }
 }
