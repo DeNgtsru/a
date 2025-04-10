@@ -467,9 +467,9 @@
         "save_steps": 300
     },
     "unsloth/Mistral-Nemo-Base-2407": {
-        "eval_steps": 999,
-        "max_steps": 1998,
-        "save_steps": 999
+        "eval_steps": 750,
+        "max_steps": 1500,
+        "save_steps": 750
     },
     "unsloth/Qwen2-1.5B": {
         "eval_steps": 751,
