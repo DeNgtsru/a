@@ -487,9 +487,9 @@
         "save_steps": 544
     },
     "unsloth/Qwen2.5-0.5B-Instruct": {
-        "eval_steps": 9273,
-        "max_steps": 18546,
-        "save_steps": 9273
+        "eval_steps": 3700,
+        "max_steps": 7400,
+        "save_steps": 3700
     },
     "unsloth/SmolLM-1.7B": {
         "eval_steps": 1045,
