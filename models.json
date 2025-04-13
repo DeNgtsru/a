@@ -201,9 +201,9 @@
         "save_steps": 9386
     },
     "lcw99/zephykor-ko-7b-chang": {
-        "eval_steps": 811,
-        "max_steps": 1622,
-        "save_steps": 811
+        "eval_steps": 500,
+        "max_steps": 1000,
+        "save_steps": 500
     },
     "lmsys/vicuna-13b-v1.5": {
         "max_length": 4096,
