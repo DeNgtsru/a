@@ -429,9 +429,9 @@
         "save_steps": 302
     },
     "NousResearch/Yarn-Solar-10b-32k": {
-        "eval_steps": 704,
-        "max_steps": 1408,
-        "save_steps": 704
+        "eval_steps": 250,
+        "max_steps": 500,
+        "save_steps": 250
     },
     "NousResearch/Yarn-Llama-2-13b-64k": {
         "flash_attention": false,
