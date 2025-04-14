@@ -517,9 +517,9 @@
         "save_steps": 3700
     },
     "unsloth/gemma-7b-it": {
-        "eval_steps": 1248,
-        "max_steps": 2496,
-        "save_steps": 1248
+        "eval_steps": 500,
+        "max_steps": 1000,
+        "save_steps": 500
     },
     "unsloth/Qwen2.5-1.5B": {
         "eval_steps": 3280,
