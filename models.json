@@ -57,9 +57,9 @@
         "save_steps": 484
     },
     "dltjdgh0928/test_instruction": {
-        "eval_steps": 9760,
-        "max_steps": 19520,
-        "save_steps": 9760
+        "eval_steps": 750,
+        "max_steps": 1500,
+        "save_steps": 750
     },
     "defog/llama-3-sqlcoder-8b": {
         "eval_steps": 858,
