@@ -379,9 +379,9 @@
     },
     "tiiuae/falcon-rw-1b": {
         "flash_attention": false,
-        "eval_steps": 3494,
-        "max_steps": 6988,
-        "save_steps": 3494
+        "eval_steps": 1800,
+        "max_steps": 3600,
+        "save_steps": 1800
     },
     "tokyotech-llm/Llama-3-Swallow-8B-v0.1": {
         "eval_steps": 438,
