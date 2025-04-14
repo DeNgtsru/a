@@ -435,9 +435,9 @@
     },
     "NousResearch/Yarn-Llama-2-13b-64k": {
         "flash_attention": false,
-        "eval_steps": 1520,
-        "max_steps": 3040,
-        "save_steps": 1520
+        "eval_steps": 600,
+        "max_steps": 1200,
+        "save_steps": 600
     },
     "NousResearch/Hermes-3-Llama-3.1-8B": {
         "eval_steps": 549,
