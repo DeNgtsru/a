@@ -557,6 +557,9 @@
         "save_steps": 1221
     },
     "unsloth/Qwen2.5-3B": {
+        "eval_batch_size": 4,
+        "micro_batch_size": 4,
+        "gradient_accumulation_steps": 4,
         "eval_steps": 910,
         "max_steps": 1820,
         "save_steps": 910
