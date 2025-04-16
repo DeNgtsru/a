@@ -242,9 +242,9 @@
         "save_steps": 326
     },
     "numind/NuExtract-v1.5": {
-        "eval_steps": 690,
-        "max_steps": 1380,
-        "save_steps": 690
+        "eval_steps": 450,
+        "max_steps": 900,
+        "save_steps": 450
     },
     "openlm-research/open_llama_3b": {
         "eval_steps": 1050,
