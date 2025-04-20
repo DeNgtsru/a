@@ -1,6 +1,6 @@
 aaaaaaaa-bigscience/bloomz-560m  
+aaaaaaaa-EleutherAI/gpt-neo-1.3B  
 Artples/L-MChat-7b  
-EleutherAI/gpt-neo-1.3B  
 EleutherAI/pythia-1b  
 EleutherAI/pythia-410m-deduped  
 EleutherAI/pythia-70m-deduped  
