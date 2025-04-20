@@ -1,5 +1,6 @@
 aaaaaaaa-bigscience/bloomz-560m  
 aaaaaaaa-EleutherAI/gpt-neo-1.3B  
+aaaaaaaa-microsoft/phi-1_5  
 Artples/L-MChat-7b  
 EleutherAI/pythia-1b  
 EleutherAI/pythia-410m-deduped  
@@ -28,7 +29,6 @@ jhflow/mistral7b-lora-multi-turn-v2
 lcw99/zephykor-ko-7b-chang  
 lmsys/vicuna-7b-v1.3  
 lmsys/vicuna-7b-v1.5  
-microsoft/phi-1_5  
 numind/NuExtract-v1.5  
 prometheus-eval/BiGGen-Bench-Results  
 tiiuae/falcon-7b  
