@@ -39,6 +39,11 @@
         "max_steps": 1560,
         "save_steps": 780
     },
+    "bigcode/starcoder2-3b": {
+        "eval_steps": 500,
+        "max_steps": 1000,
+        "save_steps": 500
+    },
     "bigscience/bloom-560m": {
         "flash_attention": false,
         "eval_steps": 1151,
