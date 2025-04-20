@@ -1,3 +1,4 @@
+aaaaaaaa-bigscience/bloomz-560m  
 Artples/L-MChat-7b  
 EleutherAI/gpt-neo-1.3B  
 EleutherAI/pythia-1b  
@@ -20,7 +21,6 @@ Qwen/Qwen1.5-7B
 Qwen/Qwen2-7B-Instruct  
 Qwen/Qwen2.5-Coder-7B-Instruct  
 bigcode/starcoder2-3b  
-bigscience/bloomz-560m  
 beomi/polyglot-ko-12.8b-safetensors  
 elyza/Llama-3-ELYZA-JP-8B  
 huggyllama/llama-7b  
