@@ -1,4 +1,4 @@
-aaaaaaaa-bigscience/bloomz-560m  
+bigscience/bloomz-560m  
 aaaaaaaa-EleutherAI/gpt-neo-1.3B  
 aaaaaaaa-microsoft/phi-1_5  
 Artples/L-MChat-7b  
