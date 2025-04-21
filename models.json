@@ -165,9 +165,9 @@
         "save_steps": 984
     },
     "Intel/neural-chat-7b-v3-3": {
-        "eval_steps": 484,
-        "max_steps": 968,
-        "save_steps": 484
+        "eval_steps": 1000,
+        "max_steps": 2000,
+        "save_steps": 1000
     },
     "JackFram/llama-68m": {
         "eval_steps": 19650,
