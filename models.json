@@ -633,6 +633,11 @@
         "max_steps": 2072,
         "save_steps": 1036
     },
+    "unsloth/llama-3-8b": {
+        "eval_steps": 500,
+        "max_steps": 1000,
+        "save_steps": 500
+    },
     "unsloth/llama-3-8b-Instruct": {
         "eval_steps": 430,
         "max_steps": 860,
