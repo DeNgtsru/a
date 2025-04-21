@@ -7,7 +7,7 @@ EleutherAI/pythia-410m-deduped
 EleutherAI/pythia-70m-deduped  
 Eurdem/Defne_llama3_2x8B  
 HuggingFaceH4/zephyr-7b-beta  
-Intel/neural-chat-7b-v3-3  
+aaaaaaaa-Intel/neural-chat-7b-v3-3  
 MNC-Jihun/Mistral-7B-AO-u0.5-b2-ver0.4  
 NousResearch/CodeLlama-13b-hf  
 NousResearch/Hermes-2-Pro-Llama-3-8B  
