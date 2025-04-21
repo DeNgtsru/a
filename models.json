@@ -1,4 +1,8 @@
 {
+    "test-katuni4ka/tiny-random-codegen2": {
+        "flash_attention": false,
+        "sequence_len": 1024
+    },
     "katuni4ka/tiny-random-codegen2": {
         "flash_attention": false,
         "sequence_len": 1024
