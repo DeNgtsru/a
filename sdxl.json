@@ -12,5 +12,27 @@
         "network_alpha": 64,
         "scale_weight_norms": 5,
         "max_bucket_reso": 2048
+  },
+  "misri/zavychromaxl_v90": {
+        "max_train_epochs": 6,
+        "max_train_steps": 1000,
+        "steps": 1000,
+        "max_token_length": 225,
+        "learning_rate": 1,
+        "text_encoder_lr": 1,
+        "unet_lr": 1,
+        "network_dim": 32,
+        "network_alpha": 64,
+        "scale_weight_norms": "",
+        "noise_offset": 0.0357,
+        "multires_noise_discount": 0.3,
+        "clip_skip": 0,
+        "scale_weight_norms": "",
+        "optimizer_args": [
+          "decouple=True",
+          "d_coef=2",
+          "weight_decay=0.01",
+          "use_bias_correction=True"
+        ]
   }
 }
