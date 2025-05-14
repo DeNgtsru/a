@@ -7,7 +7,7 @@
         "learning_rate": 0.00004,
         "text_encoder_lr": 0.00004,
         "unet_lr": 0.00004,
-        "lr_scheduler" = "constant",
+        "lr_scheduler": "constant",
         "network_dim": 32,
         "network_alpha": 64,
         "scale_weight_norms": 5,
