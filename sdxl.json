@@ -1,4 +1,7 @@
 {
+  "John6666/hassaku-xl-illustrious-v10style-sdxl": {
+        "max_train_steps": 3000
+    },
   "dataautogpt3/TempestV0.1": {
         "max_train_epochs": 10
     },
