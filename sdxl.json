@@ -31,10 +31,7 @@
         "multires_noise_discount": 0.3,
         "clip_skip": 0,
         "optimizer_args": [
-              "decouple=True",
-              "d_coef=2",
-              "weight_decay=0.01",
-              "use_bias_correction=True"
+              "weight_decay=0.01"
         ]
   }
 }
